@@ -76,7 +76,7 @@
 
 * What is new?
 
-- Poweful *elaboration engine* that can handle
+- Powerful *elaboration engine* that can handle
   - Higher-order unification
   - Definitional reductions
   - Coercions
@@ -93,7 +93,7 @@
 
 * What is new?
 
-- Poweful *elaboration engine* that can handle
+- Powerful *elaboration engine* that can handle
 - Small *trusted* kernel
   - It does *not* contain
     - Termination checker
@@ -110,7 +110,7 @@
 
 * What is new?
 
-- Poweful *elaboration engine* that can handle
+- Powerful *elaboration engine* that can handle
 - Small *trusted* kernel
 - Multi-core support
   - Process theorems in parallel
@@ -118,14 +118,14 @@
 
 * What is new?
 
-- Poweful *elaboration engine* that can handle
+- Powerful *elaboration engine* that can handle
 - Small *trusted* kernel
 - Multi-core support
 - Fast *incremental compilation*
 
 * What is new?
 
-- Poweful *elaboration engine* that can handle
+- Powerful *elaboration engine* that can handle
 - Small *trusted* kernel
 - Multi-core support
 - Fast *incremental compilation*
@@ -133,7 +133,7 @@
 
 * What is new?
 
-- Poweful *elaboration engine* that can handle
+- Powerful *elaboration engine* that can handle
 - Small *trusted* kernel
 - Multi-core support
 - Fast *incremental compilation*
@@ -267,8 +267,8 @@ variables {A : Type} [ambA : group A] [finA : fintype A]
           [deceqA : decidable_eq A]
 include ambA deceqA finA
 
-theorem cauchy_theorem
-: ∀ p, prime p → p ∣ card(A) → ∃ g : A, order(g) = p
+theorem cauchy_theorem :
+∀ p, prime p → p ∣ card(A) → ∃ g : A, order(g) = p
 
 theorem first_sylow_theorem :
 ∀ p, prime p → ∀ n, p^n ∣ card(A) →
